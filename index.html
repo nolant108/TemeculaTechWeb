@@ -233,9 +233,9 @@ body, html {
       <ul class="w3-ul w3-white w3-hover-shadow">
         <li class="w3-black w3-xlarge w3-padding-32">Hardware/Software Repair</li>
         <li class="w3-padding-16"><b>Full</b> Repair</li>
-        <li class="w3-padding-16"><b></b> Emails</li>
-        <li class="w3-padding-16"><b>10</b> Domains</li>
-        <li class="w3-padding-16"><b>Endless</b> Support</li>
+        <li class="w3-padding-16"><b>Teching</b> of Software or Hardware</li>
+        <li class="w3-padding-16"><b>15</b> Day Money Back Guarantee</li>
+        <li class="w3-padding-16"><b>Endless</b> Phone and Email Support</li>
         <li class="w3-padding-16">
           <h2 class="w3-wide">$ 30</h2>
           <span class="w3-opacity">per repair*</span>
@@ -251,7 +251,7 @@ body, html {
         <li class="w3-padding-16"><b>25GB</b> Storage</li>
         <li class="w3-padding-16"><b>25</b> Emails</li>
         <li class="w3-padding-16"><b>25</b> Domains</li>
-        <li class="w3-padding-16"><b>Endless</b> Support</li>
+        <li class="w3-padding-16"><b>Endless</b> Phone and Email Support</li>
         <li class="w3-padding-16">
           <h2 class="w3-wide">$ 25</h2>
           <span class="w3-opacity">per month</span>
@@ -267,7 +267,7 @@ body, html {
         <li class="w3-padding-16"><b>50GB</b> Storage</li>
         <li class="w3-padding-16"><b>50</b> Emails</li>
         <li class="w3-padding-16"><b>50</b> Domains</li>
-        <li class="w3-padding-16"><b>Endless</b> Support</li>
+        <li class="w3-padding-16"><b>Endless</b> Phone and Email Support</li>
         <li class="w3-padding-16">
           <h2 class="w3-wide">$ 50</h2>
           <span class="w3-opacity">per month</span>
@@ -291,11 +291,14 @@ body, html {
     <br>
     
  
-    <form name="contact" method="POST" data-netlify="true">
+    <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
       <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
       <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
       <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
       <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+        <p class="hidden">
+    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+  </p>
       <p>
         <button class="w3-button w3-black" type="submit">
           <i class="fa fa-paper-plane"></i> SEND MESSAGE
